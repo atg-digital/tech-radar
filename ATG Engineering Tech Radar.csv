@@ -1,18 +1,22 @@
 name,quadrant,ring,isNew,description
-Micro front-ends,Techniques,Adopt,TRUE,<p>Do this</p>
-Sample Adopt,Techniques,Adopt,FALSE,<p>Placeholder item</p>
-Sample Trial,Techniques,Trial,FALSE,<p>Placeholder item</p>
-Sample Assess,Techniques,Assess,FALSE,<p>Placeholder item</p>
-Sample Hold,Techniques,Hold,FALSE,<p>Placeholder item</p>
-Sample Adopt,Platforms,Adopt,FALSE,<p>Placeholder item</p>
-Sample Trial,Platforms,Trial,FALSE,<p>Placeholder item</p>
-Sample Assess,Platforms,Assess,FALSE,<p>Placeholder item</p>
-Sample Hold,Platforms,Hold,FALSE,<p>Placeholder item</p>
-Sample Adopt,Tools,Adopt,FALSE,<p>Placeholder item</p>
-Sample Trial,Tools,Trial,FALSE,<p>Placeholder item</p>
-Sample Assess,Tools,Assess,FALSE,<p>Placeholder item</p>
-Sample Hold,Tools,Hold,FALSE,<p>Placeholder item</p>
-Sample Adopt,Languages & Frameworks,Adopt,FALSE,<p>Placeholder item</p>
-Sample Trial,Languages & Frameworks,Trial,FALSE,<p>Placeholder item</p>
-Sample Assess,Languages & Frameworks,Assess,FALSE,<p>Placeholder item</p>
-Sample Hold,Languages & Frameworks,Hold,FALSE,<p>Placeholder item</p>
+
+Micro front-ends,Techniques,Trial,TRUE,<p>We are looking to understand how micro front-ends will play a part in the Bolt Platform</p>
+Microservices,Techniques,Adopt,TRUE,<p>Moving away from Bolt API we are definitely adopting microservices as the new architecture</p>
+Event-based Architecture,Techniques,Adopt,TRUE,<p>Starting with polling services, ATG will adopt an event-based architecture. Third-parties will either have events available to consume, or ATG will be able to provide events for them (via polling services or a proxy).</p>
+Design System,Techniques,Adopt,TRUE,<p>Backdrop, ATG's design system, is well underway and will start life on Venue Sites but be rolled out to the full platform</p>
+Mono-repo,Techniques,Hold,TRUE,<p>Currently does not fit with our pipeline model</p>
+Canary Builds,Techniques,Assess,TRUE,<p>As we create our first microservices, how might we want to use the canary builds / deployments available in AWS</p>
+AWS Lambda,Platforms,Adopt,TRUE,<p>Our new microservice platform</p>
+AWS AppSync,Platforms,Trial,TRUE,<p>AppSync may give us easy wins as we use the Strangler Pattern on Bolt API</p>
+AWS ECS,Platforms,Hold,FALSE,<p>Let's hold off on containers for now</p>
+Auth0,Platforms,Assess,TRUE,<p>As we seek to commoditise our platform, Auth0 offers a great platfrom to help us manage our user accounts</p>
+GitHub Actions,Tools,Adopt,TRUE,<p>Based on recent trials</p>
+StatusPage.io,Tools,Trial,TRUE,<p>We've put this into place and now making it available via SSO</p>
+Terraform,Tools,Trial,TRUE,<p>In use for a while now, continue to assess</p>
+Serverless Framework,Tools,Trial,TRUE,<p>To be assessed with some new microservices</p>
+Local Stack,Tools,Assess,FALSE,<p>There's some interest and a belief this will speed up development</p>
+CircleCI,Tools,Hold,TRUE,<p>Tested as part of Harry Potter Platform, our choice is to move forward with GitHub Actions</p>
+TypeScript,Languages & Frameworks,Adopt,TRUE,<p>We'll all love it eventually</p>
+Apollo,Languages & Frameworks,Adopt,TRUE,<p>Our GraphQL client of choice</p>
+Angular,Languages & Frameworks,Hold,TRUE,<p>ATG is a React house for now</p>
+.NET Core,Languages & Frameworks,Hold,TRUE,<p>All new microservices should be built in nodejs and TypeScript for now</p>
