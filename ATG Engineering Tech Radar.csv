@@ -1,14 +1,14 @@
 name,quadrant,ring,isNew,description
-
-Micro front-ends,Techniques,Trial,TRUE,<p>We are looking to understand how micro front-ends will play a part in the Bolt Platform</p>
 Microservices,Techniques,Adopt,TRUE,<p>Moving away from Bolt API we are definitely adopting microservices as the new architecture</p>
+Micro front-ends,Techniques,Trial,TRUE,<p>We are looking to understand how micro front-ends will play a part in the Bolt Platform</p>
 Event-based Architecture,Techniques,Adopt,TRUE,<p>Starting with polling services, ATG will adopt an event-based architecture. Third-parties will either have events available to consume, or ATG will be able to provide events for them (via polling services or a proxy).</p>
 Design System,Techniques,Adopt,TRUE,<p>Backdrop, ATG's design system, is well underway and will start life on Venue Sites but be rolled out to the full platform</p>
-Mono-repo,Techniques,Hold,TRUE,<p>Currently does not fit with our pipeline model</p>
 Canary Builds,Techniques,Assess,TRUE,<p>As we create our first microservices, how might we want to use the canary builds / deployments available in AWS</p>
+Mono-repo,Techniques,Hold,TRUE,<p>Currently does not fit with our pipeline model</p>
 AWS Lambda,Platforms,Adopt,TRUE,<p>Our new microservice platform</p>
+AWS Elastic Search,Platforms,Trial,TRUE,<p>Currently in use for some search functionality</p>
 AWS AppSync,Platforms,Trial,TRUE,<p>AppSync may give us easy wins as we use the Strangler Pattern on Bolt API</p>
-AWS ECS,Platforms,Hold,FALSE,<p>Let's hold off on containers for now</p>
+AWS ECS,Platforms,Hold,FALSE,<p>Currently in use for older Bolt UI and API apps</p>
 Auth0,Platforms,Assess,TRUE,<p>As we seek to commoditise our platform, Auth0 offers a great platfrom to help us manage our user accounts</p>
 GitHub Actions,Tools,Adopt,TRUE,<p>Based on recent trials</p>
 StatusPage.io,Tools,Trial,TRUE,<p>We've put this into place and now making it available via SSO</p>
