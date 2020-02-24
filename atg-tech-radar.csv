@@ -1,0 +1,18 @@
+name,quadrant,ring,IsNew,description
+Micro front-ends,Techniques,Adopt,TRUE,<p>Do this</p>
+Sample Adopt,Techniques,Adopt,FALSE,<p>Placeholder item</p>
+Sample Trial,Techniques,Trial,FALSE,<p>Placeholder item</p>
+Sample Assess,Techniques,Assess,FALSE,<p>Placeholder item</p>
+Sample Hold,Techniques,Hold,FALSE,<p>Placeholder item</p>
+Sample Adopt,Platforms,Adopt,FALSE,<p>Placeholder item</p>
+Sample Trial,Platforms,Trial,FALSE,<p>Placeholder item</p>
+Sample Assess,Platforms,Assess,FALSE,<p>Placeholder item</p>
+Sample Hold,Platforms,Hold,FALSE,<p>Placeholder item</p>
+Sample Adopt,Tools,Adopt,FALSE,<p>Placeholder item</p>
+Sample Trial,Tools,Trial,FALSE,<p>Placeholder item</p>
+Sample Assess,Tools,Assess,FALSE,<p>Placeholder item</p>
+Sample Hold,Tools,Hold,FALSE,<p>Placeholder item</p>
+Sample Adopt,languages-and-frameworks,Adopt,FALSE,<p>Placeholder item</p>
+Sample Trial,languages-and-frameworks,Trial,FALSE,<p>Placeholder item</p>
+Sample Assess,languages-and-frameworks,Assess,FALSE,<p>Placeholder item</p>
+Sample Hold,languages-and-frameworks,Hold,FALSE,<p>Placeholder item</p>
